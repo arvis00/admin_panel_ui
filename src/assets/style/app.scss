@@ -1,56 +1,39 @@
+@import 'variables';
+@import 'navbar';
+@import 'fonts';
+@import 'sidenav';
+@import 'dashboard';
+@import 'profile';
+@import 'pricing';
+@import 'team';
+@import 'gallery';
+@import 'sidebar';
+
+
+
 body{
-    width: 1000px;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
-
-.buttons{
-    display: flex;
-}
-
-.buttons div{
-    margin-right: 10px;
-    border: solid 2px;
-    padding: 10px 20px;
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    background: #ebebeb;
+    margin-left: 240px;
+    margin-top: 70px;
+    &.sidenav__hide{
+        margin-left: 78px;
+    }
 }
 
 img{
-    display: block;
-    max-width:100%;
-    height: 600px;
-    object-fit: contain;
-}
+    
+        display: block;
+        max-width: 100%;
+        height: auto;
+        
+    }
 
-.textBlocks{
-    display: flex;
-    justify-content: space-between;
-    // margin: 20px;
-}
-
-.textBlocks div{
-    margin: 20px;
-}
-
-.listBlocks{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: rgba(21, 101, 138, 0.952)
-
-}
+    
 
 
-li{
-    list-style: none;
-}
 
-.madeBy{
-    font-size: 13px;
-    text-align: center
-}
+
+
 

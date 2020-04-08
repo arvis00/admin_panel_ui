@@ -1,0 +1,129 @@
+.header {
+    padding-top: 1.8%;
+    margin-left: 1.8%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.dashboard {
+
+
+    // padding: 20px;
+
+
+    // .siteDesc p{
+    //     display: inline-block;
+    // }
+
+
+
+
+
+    .circle {
+        height: 80px;
+        width: 80px;
+        
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        // padding-right: 20px;
+        &.one {
+            background-color: rgb(149, 200, 148);
+            border: 3px solid rgb(141, 195, 138);
+        }
+
+        &.two {
+            background-color: rgb(114, 124, 194);
+            border: 3px solid rgb(100, 111, 188);
+
+        }
+
+        &.three {
+            background-color: rgb(227, 148, 151);
+            border: 3px solid rgb(226, 138, 140);
+
+        }
+
+        &.four {
+            background-color: rgb(167, 102, 190);
+            border: 3px solid rgb(160, 91, 184)
+
+        }
+        svg{
+            fill: #fff;
+        }
+
+    }
+
+    .text {
+        padding-left: 20px;
+    }
+
+    .report-img img {
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+    }
+
+
+
+
+    .block {
+        // height: 120px;
+        background-color: #fff;
+
+        padding: 10px;
+        margin: 0 10px;
+        flex-grow: 1;
+        box-shadow: 0 0 10px 0 rgba(22, 45, 61, .1);
+        border-radius: 3px;
+    }
+
+    .just {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 10px;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+
+    }
+
+    .just_last {
+        display: flex;
+
+        justify-content: space-between;
+        margin-top: 10px;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+
+        .cont {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-between;
+
+            box-sizing: border-box;
+
+            // flex-wrap: wrap;
+            .margin {
+                margin: 10px 0;
+            }
+            .block.just:nth-child(1){
+                margin-top: 0;
+            }
+            .block.just:nth-child(3){
+                margin-top: 0;
+
+            }
+        }
+
+        .table td,
+        .table th {
+            border-top: 0;
+        }
+    }
+
+}

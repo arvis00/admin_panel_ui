@@ -1,0 +1,135 @@
+
+
+.header {
+    padding-top: 1.8%;
+    margin-left: 1.8%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.pricing {
+    @extend %just;
+    margin: 0 10.8%;
+
+    text-align: center;
+
+    &__h3 {
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    &__block {
+        @extend %block;
+        margin-top: 1.8%;
+        padding: 30px;
+
+        &--middle {
+            margin: 0 1.8%;
+        margin-top: 1.8%;
+
+            position: relative;
+        }
+
+        &__ribbon {
+            position: absolute;
+            left: -5px;
+            top: -5px;
+            z-index: 1;
+            overflow: hidden;
+            width: 75px;
+            height: 75px;
+            text-align: right;
+        }
+        &__ribbon span {
+            font-size: 10px;
+            font-weight: bold;
+            color: #FFF;
+            text-transform: uppercase;
+            text-align: center;
+            line-height: 20px;
+            transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+            width: 100px;
+            display: block;
+            background: #79A70A;
+            background: linear-gradient(#9BC90D 0%, #79A70A 100%);
+            box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+            position: absolute;
+            top: 19px; left: -21px;
+          }
+          &__ribbon span::before {
+            content: "";
+            position: absolute; left: 0px; top: 100%;
+            z-index: -1;
+            border-left: 3px solid #79A70A;
+            border-right: 3px solid transparent;
+            border-bottom: 3px solid transparent;
+            border-top: 3px solid #79A70A;
+          }
+          &__ribbon span::after {
+            content: "";
+            position: absolute; right: 0px; top: 100%;
+            z-index: -1;
+            border-left: 3px solid transparent;
+            border-right: 3px solid #79A70A;
+            border-bottom: 3px solid transparent;
+            border-top: 3px solid #79A70A;
+          }
+
+        h5 {
+            color: rgb(123, 184, 114);
+        }
+
+        &__price {
+            font-size: 50px;
+            font-weight: bold;
+        }
+
+        &__per-month {
+            color: rgb(155, 161, 165);
+            font-size: 14px;
+            padding-bottom: 50px;
+        }
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+            li {
+                padding-bottom: 20px;
+
+                svg {
+                    fill: rgb(123, 184, 114);
+                    margin-right: 10px;
+                }
+            }
+        }
+        &__btn{
+            border-radius: 15px;
+                    width: 130px;
+                    color: #fff;
+                    border: none;
+                    background-color: rgb(223, 117, 118);
+                    padding: 5px 10px;
+                    margin: 30px 0;
+
+        }
+    }
+}
+
+@media screen and (max-width:1189px){
+    .pricing__block--middle{
+        margin-right: 0;
+
+    }
+
+}
+
+@media screen and (max-width:860px){
+    .pricing__block--middle{
+        margin-left: 0;
+
+    }
+
+}

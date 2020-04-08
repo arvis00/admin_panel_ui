@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/style/app.css">
+
+</head>
+
+<body data-sidenav>
+
+    <nav>
+        <div class="nav-logo" data-sidenav>
+    
+            <a href="#">
+                <svg>
+                    <use xlink:href="#logo"></use>
+    
+                </svg>
+                <span>Logo</span>
+            </a>
+        </div>
+        <div class="nav-menu">
+            <div class="nav-menu_left">
+                <a href="#" data-toggle="sidenav"><svg>
+                        <use xlink:href="#burger"></use>
+    
+                    </svg> </a>
+    
+                <input type="text" placeholder="search...">
+                <svg class="text__search-svg">
+                    <use xlink:href="#search"></use>
+    
+                </svg>
+    
+    
+            </div>
+            <ul class="nav-menu_list">
+                <li><a href="#" data-toggle="sidebar">
+                        <svg>
+                            <use xlink:href="#dots"></use>
+    
+                        </svg>
+                    </a>
+                </li>
+                <li class="nav-menu_list__notif-button" data-toggle="drop"><a href="#" >
+                        <svg>
+                            <use xlink:href="#notif"></use>
+    
+                        </svg>
+                        
+                    </a>
+                    <div class="dropdown-box" data-drop>
+                            <div class="dropdown-box__heading">
+                                <p>Notifications</p>
+                                <div class="dropdown-box__heading__red-box">5</div>
+                            </div>
+                            <div class="dropdown-box__notif">
+                                <div class="dropdown-box__notif__item">
+                                    <div class="circle circle--comment">
+                                        <svg>
+                                            <use xlink:href="#burger"></use>
+    
+                                        </svg>
+                                    </div>
+                                    <div class="dropdown-box__notif__item__text">
+                                        <div>Robert S. Taylor comment</div>
+                                        <div>1 min ago</div>
+                                    </div>
+                                </div>
+                                <div class="dropdown-box__notif__item">
+                                    <div class="circle circle--user">
+                                        <svg>
+                                            <use xlink:href="#burger"></use>
+    
+                                        </svg>
+                                    </div>
+                                    <div class="dropdown-box__notif__item__text">
+                                        <div>New user registered</div>
+                                        <div>1 min ago</div>
+                                    </div>
+                                </div>
+                                <div class="dropdown-box__notif__item">
+                                    <div class="circle circle--like">
+                                        <svg>
+                                            <use xlink:href="#burger"></use>
+    
+                                        </svg>
+                                    </div>
+                                    <div class="dropdown-box__notif__item__text">
+                                        <div>Carlos Crouch liked Admin</div>
+                                        <div>1 min ago</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dropdown-box__footer">
+                                View All
+                            </div>
+                        </div>
+                </li>
+                <li><a href="#">
+    
+                        <img class='img-circle' src="assets/img/profile.jpg" alt="">
+    
+                    </a>
+                </li>
+    
+            </ul>
+    
+    
+        </div>
+        
+    </nav>    
+    
+        <div class="sidenav" data-sidenav>
+            <div class="sidenav_divider">
+            <h5 class="sidenav_title">Main</h5>
+            <ul class="sidenav_list">
+                <li class="active">
+                    <a href="#"><svg>
+                            <use xlink:href="#burger"></use>
+    
+                        </svg><span>Dashboard</span></a>
+                </li>
+                <li>
+                    <a href="#"><svg>
+                            <use xlink:href="#burger"></use>
+    
+                        </svg><span>Dashboard</span></a>
+                </li>
+                <li>
+                    <a href="#"><svg>
+                            <use xlink:href="#burger"></use>
+    
+                        </svg><span>Dashboard</span></a>
+                </li>
+                <li>
+                    <a href="#"><svg>
+                            <use xlink:href="#burger"></use>
+    
+                        </svg><span>Dashboard</span></a>
+                </li>
+                <li>
+                    <a href="#"><svg>
+                            <use xlink:href="#burger"></use>
+    
+                        </svg><span>Dashboard</span></a>
+                </li>
+                <li>
+                    <a href="#"><svg>
+                            <use xlink:href="#burger"></use>
+    
+                        </svg><span>Dashboard</span></a>
+                </li>
+    
+            </ul>
+            <h5 class="sidenav_title">More</h5>
+            <ul class="sidenav_list">
+                <li>
+                    <a href="#"><svg>
+                            <use xlink:href="#burger"></use>
+    
+                        </svg><span>Dashboard</span></a>
+                </li>
+                <li>
+                    <a href="#"><svg>
+                            <use xlink:href="#burger"></use>
+    
+                        </svg><span>Dashboard</span></a>
+                </li>
+                <li>
+                    <a href="#"><svg>
+                            <use xlink:href="#burger"></use>
+    
+                        </svg><span>Dashboard</span></a>
+                </li>
+                <li>
+                    <a href="#"><svg>
+                            <use xlink:href="#burger"></use>
+    
+                        </svg><span>Dashboard</span></a>
+                </li>
+            </ul>
+            <h5 class="sidenav_title">Extra</h5>
+            <ul class="sidenav_list">
+                <li>
+                    <a href="#"><svg>
+                            <use xlink:href="#burger"></use>
+    
+                        </svg><span>Dashboard</span></a>
+                </li>
+                <li>
+                    <a href="#"><svg>
+                            <use xlink:href="#burger"></use>
+    
+                        </svg><span>Dashboard</span></a>
+                </li>
+                <li>
+                    <a href="#"><svg>
+                            <use xlink:href="#burger"></use>
+    
+                        </svg><span>Dashboard</span></a>
+                </li>
+            </ul>
+        </div>
+        </div>    <div class="sidebar" data-sidebar>
+        <div class="all-tabs">
+            <ul>
+                <li><button class="sideTab one sideTab--activity" data-type='sidebar'
+                        data-switch='activity_side'>Activity</button></li>
+                <li><button class="sideTab two sideTab--settings inactive" data-type='sidebar'
+                        data-switch='settings_side'>Settings</button></li>
+            </ul>
+    
+            <div class="all-tabs__thin-line">
+                <div class="all-tabs__thin-line__bold-line bold-line" data-sidebar></div>
+            </div>
+        </div>
+        <div class="sidebar--activity tabContent" data-sidebar data-activity_side>
+            <div class="sidebar--activity__activityBlock">
+                <div class="sidebar__circle"></div>
+    
+                <div class="timeStamp">
+                    5 minutes ago
+                </div>
+                <div class="activityText">
+                    <span class="blueName">John Doe</span> uploaded a photo <span class="boldText">"DSC000586.jpg</span>
+                </div>
+            </div>
+            <div class="sidebar--activity__activityBlock">
+                <div class="sidebar__circle"></div>
+    
+                <div class="timeStamp">
+                    30 minutes ago
+                </div>
+                <div class="activityText">
+                    <span class="blueName">Lorem</span> commented your post. <br> <span class="italicText">"Lorem ipsum
+                        dolor sit amet consectetur adipisicing elit. Nihil similique rem magnam odit suscipit laborum sunt
+                        voluptate maiores." </span>
+                </div>
+            </div>
+            <div class="sidebar--activity__activityBlock">
+                <div class="sidebar__circle"></div>
+    
+                <div class="timeStamp">
+                    59 minutes ago
+                </div>
+                <div class="activityText">
+                    <span class="blueName">Jessi</span> attended a meeting with <span class="greenText">John Doe.</span>
+                    <br> <span class="italicText">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil similique
+                        rem magnam odit suscipit laborum sunt voluptate maiores." </span>
+                </div>
+            </div>
+            <div class="sidebar--activity__activityBlock">
+                <div class="sidebar__circle"></div>
+    
+                <div class="timeStamp">
+                    1 hours ago
+                </div>
+                <div class="activityText">
+                    <span class="blueName">John Doe</span> uploaded 2 new photos
+                </div>
+            </div>
+            <div class="sidebar--activity__activityBlock">
+                <div class="sidebar__circle"></div>
+    
+                <div class="timeStamp">
+                    3 hours ago
+                </div>
+                <div class="activityText">
+                    <span class="blueName">Lorem</span> commented your post. <br> <span class="italicText">"Lorem ipsum
+                        dolor sit amet consectetur adipisicing elit. Nihil similique rem magnam odit suscipit laborum sunt
+                        voluptate maiores." </span>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar--settings tabContent" data-sidebar data-settings_side>
+            <div class="sidebar--settings__settingsBlock">
+                <div class="sidebar-text-content">
+                <div class="title">Notifications</div>
+                <div class="setting">Do you need them?</div>
+                </div>
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <div class="sidebar--settings__settingsBlock">
+                <div class="sidebar-text-content">
+    
+                <div class="title">API Access</div>
+                <div class="setting">Enable/Disable access</div>
+                </div>
+    
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <div class="sidebar--settings__settingsBlock">
+                <div class="sidebar-text-content">
+    
+                <div class="title">Auto updates</div>
+                <div class="setting">Keep up to date</div>
+                </div>
+    
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <div class="sidebar--settings__settingsBlock">
+                <div class="sidebar-text-content">
+    
+                <div class="title">Online status</div>
+                <div class="setting">Show your status to all</div>
+                </div>
+    
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+    
+    
+    
+        </div>
+    </div>    <div class="header">Gallery</div>
+
+<div class="gallery">
+    <div class="gallery__filter">
+        <ul>
+            <li><button class="gallery__filter__btn gallery__filter__btn--all" id='btnAll'>All</button></li>
+            <li><button class="gallery__filter__btn" id='btnWebDesign'>Web Design</button></li>
+            <li><button class="gallery__filter__btn" id='btnGraphicDesign'>Graphic Design</button></li>
+            <li><button class="gallery__filter__btn" id='btnIllustrator'>Illustrator</button></li>
+            <li><button class="gallery__filter__btn" id='btnPhotography'>Photography</button></li>
+
+        </ul>
+    </div>
+    <div class="gallery__window">
+        
+            <div class="gallery__window__box">
+                <img src="../../../public/assets/img/gallery.jpg" alt="">
+                <h5>Gallery Image</h5>
+                <hr>
+                <div class="gallery__window__box__desc">Photography</div>
+
+            </div>
+            <div class="gallery__window__box">
+                <img src="../../../public/assets/img/gallery.jpg" alt="">
+                <h5>Gallery Image</h5>
+                <hr>
+                <div class="gallery__window__box__desc">Web Design</div>
+
+            </div>
+            <div class="gallery__window__box">
+                <img src="../../../public/assets/img/gallery.jpg" alt="">
+                <h5>Gallery Image</h5>
+                <hr>
+                <div class="gallery__window__box__desc">Photography</div>
+
+            </div>
+            <div class="gallery__window__box">
+                <img src="../../../public/assets/img/gallery.jpg" alt="">
+                <h5>Gallery Image</h5>
+                <hr>
+                <div class="gallery__window__box__desc">Web Design</div>
+
+            </div>
+            <div class="gallery__window__box">
+                <img src="../../../public/assets/img/gallery.jpg" alt="">
+                <h5>Gallery Image</h5>
+                <hr>
+                <div class="gallery__window__box__desc">Illustrator</div>
+
+            </div>
+            <div class="gallery__window__box">
+                <img src="../../../public/assets/img/gallery.jpg" alt="">
+                <h5>Gallery Image</h5>
+                <hr>
+                <div class="gallery__window__box__desc">Graphic Design</div>
+
+            </div>
+            <div class="gallery__window__box">
+                <img src="../../../public/assets/img/gallery.jpg" alt="">
+                <h5>Gallery Image</h5>
+                <hr>
+                <div class="gallery__window__box__desc">Web Design</div>
+
+            </div>
+            <div class="gallery__window__box">
+                <img src="../../../public/assets/img/gallery.jpg" alt="">
+                <h5>Gallery Image</h5>
+                <hr>
+                <div class="gallery__window__box__desc">Graphic Design</div>
+
+            </div>
+        </div>
+    
+</div>
+
+    <div><?xml version="1.0"?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><symbol viewBox="0 0 48 48" id="briefcase" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M-1-1h582v402H-1z"/><g><path fill="none" stroke="#07b87b" stroke-miterlimit="10" d="M38.88 33.879c0 1.1-.9 2-2 2H11.13c-1.1 0-2-.9-2-2V18.727c0-1.1.9-2 2-2h25.75c1.1 0 2 .9 2 2v15.152z"/><path fill="none" stroke="#07b87b" stroke-miterlimit="10" d="M26.365 24.712a2.124 2.124 0 01-2.125 2.125h0a2.124 2.124 0 01-2.125-2.125h0c0-1.174.951-2.125 2.125-2.125h0c1.174 0 2.125.951 2.125 2.125h0zM9.88 17.504s5.75 6.125 12.125 6.875M38.13 17.629s-5.75 6.125-12.125 6.875M17.486 16.729v-3.89c0-1.1.9-2 2-2h9.54c1.1 0 2 .9 2 2v3.89"/><path fill="none" stroke="#07b87b" stroke-miterlimit="10" d="M19.566 16.729v-2.72c0-.55.45-1 1-1h7.08c.55 0 1 .45 1 1v2.72"/></g></symbol><symbol viewBox="0 0 24 24" id="burger" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></symbol><symbol viewBox="0 0 24 24" id="cloud" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M19.35 10.04A7.49 7.49 0 0012 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 000 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM19 18H6c-2.21 0-4-1.79-4-4s1.79-4 4-4h.71C7.37 7.69 9.48 6 12 6c3.04 0 5.5 2.46 5.5 5.5v.5H19c1.66 0 3 1.34 3 3s-1.34 3-3 3z"/></symbol><symbol viewBox="0 0 24 24" id="dots" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M6 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm12 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm-6 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"/></symbol><symbol viewBox="0 0 32 32" id="email" xmlns="http://www.w3.org/2000/svg"><path d="M25.12 6H6.88A3.89 3.89 0 003 9.89v11.22A3.89 3.89 0 006.88 25h18.24A3.89 3.89 0 0029 21.11V9.89A3.89 3.89 0 0025.12 6zm0 2h.16L16 14.76 6.72 8h.16zM27 21.11A1.89 1.89 0 0125.12 23H6.88A1.89 1.89 0 015 21.11V9.89a1.92 1.92 0 01.1-.59l10.32 7.51a1 1 0 001.18 0L26.91 9.3a1.92 1.92 0 01.1.59z" data-name="Layer 17"/></symbol><symbol viewBox="0 0 67 67" id="facebook" xmlns="http://www.w3.org/2000/svg"><path d="M28.765 50.32h6.744V33.998h4.499l.596-5.624h-5.095l.007-2.816c0-1.466.14-2.253 2.244-2.253h2.812V17.68h-4.5c-5.405 0-7.307 2.729-7.307 7.317v3.377h-3.369v5.625h3.369V50.32zM33 64C16.432 64 3 50.569 3 34S16.432 4 33 4s30 13.431 30 30-13.432 30-30 30z" fill-rule="evenodd" clip-rule="evenodd" fill="#d8d9d8"/></symbol><symbol viewBox="0 0 24 24" id="logo" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M8.1 13.34l2.83-2.83L3.91 3.5a4.008 4.008 0 000 5.66l4.19 4.18zm6.78-1.81c1.53.71 3.68.21 5.27-1.38 1.91-1.91 2.28-4.65.81-6.12-1.46-1.46-4.2-1.1-6.12.81-1.59 1.59-2.09 3.74-1.38 5.27L3.7 19.87l1.41 1.41L12 14.41l6.88 6.88 1.41-1.41L13.41 13l1.47-1.47z"/></symbol><symbol viewBox="0 0 24 24" id="notif" xmlns="http://www.w3.org/2000/svg"><path d="M12 22c1.1 0 2-.9 2-2h-4a2 2 0 002 2zm6-6v-5c0-3.07-1.64-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.63 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2z"/></symbol><symbol viewBox="0 0 32 32" id="search" xmlns="http://www.w3.org/2000/svg"><path d="M19.427 21.427a8.5 8.5 0 112-2l5.585 5.585c.55.55.546 1.43 0 1.976l-.024.024a1.399 1.399 0 01-1.976 0l-5.585-5.585zM14.5 21a6.5 6.5 0 100-13 6.5 6.5 0 000 13z" fill="#929292" fill-rule="evenodd"/></symbol><symbol viewBox="0 0 67 67" id="skype" xmlns="http://www.w3.org/2000/svg"><path d="M34.84 46.38c-4.82.256-7.075-.832-9.142-2.809-2.308-2.209-1.381-4.728.499-4.855 1.879-.128 3.007 2.171 4.01 2.812 1.002.638 4.812 2.09 6.826-.258 2.191-2.554-1.458-3.875-4.134-4.276-3.819-.576-8.642-2.683-8.267-6.836.375-4.149 3.457-6.277 6.7-6.577 4.134-.383 6.825.638 8.954 2.491 2.461 2.14 1.129 4.532-.438 4.725-1.562.191-3.316-3.52-6.761-3.576-3.551-.057-5.95 3.768-1.567 4.854 4.385 1.086 9.081 1.532 10.772 5.62 1.692 4.087-2.629 8.428-7.452 8.685zm13.591-9.724c.091-.68.143-1.372.143-2.075 0-8.446-6.784-15.294-15.152-15.294-.832 0-1.647.07-2.441.202A8.918 8.918 0 0026.042 18C21.046 18 17 22.107 17 27.175c0 1.844.535 3.557 1.456 4.995a15.458 15.458 0 00-.188 2.41c0 8.447 6.781 15.294 15.151 15.294.945 0 1.865-.093 2.759-.257A8.945 8.945 0 0040.958 51C45.953 51 50 46.893 50 41.825a9.22 9.22 0 00-1.569-5.169zM33 64C16.432 64 3 50.568 3 34 3 17.431 16.432 4 33 4s30 13.431 30 30c0 16.568-13.432 30-30 30z" fill-rule="evenodd" clip-rule="evenodd" fill="#d8d9d8"/></symbol><symbol viewBox="0 0 50 50" id="support" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M-1-1h52v52H-1z"/><g><path fill="none" d="M0 0h50v50H0z"/><path stroke-width="2" stroke-miterlimit="10" stroke="#07b87b" fill="none" d="M44 20a2 2 0 00-4 0v15a2 2 0 004 0V20zM28 47a2 2 0 000-4h-5a2 2 0 000 4h5z"/><path stroke-width="2" stroke-miterlimit="10" stroke="#07b87b" fill="none" d="M8 19.082c0-9.39 7.611-17 17-17s17 7.61 17 17M44 20c2.762 0 5 3.357 5 7.5 0 4.141-2.238 7.5-5 7.5"/><path stroke-width="2" stroke-miterlimit="10" stroke="#07b87b" fill="none" d="M6 20a2 2 0 014 0v15a2 2 0 01-4 0V20zM6 20c-2.761 0-5 3.357-5 7.5C1 31.641 3.239 35 6 35M42 37c0 5-3 8-8 8h-4"/></g></symbol><symbol viewBox="0 0 67 67" id="twitter" xmlns="http://www.w3.org/2000/svg"><path d="M37.167 22.283c-2.619.953-4.274 3.411-4.086 6.101l.063 1.038-1.048-.127c-3.813-.487-7.145-2.139-9.974-4.915l-1.383-1.377-.356 1.017c-.754 2.267-.272 4.661 1.299 6.271.838.89.649 1.017-.796.487-.503-.169-.943-.296-.985-.233-.146.149.356 2.076.754 2.839.545 1.06 1.655 2.097 2.871 2.712l1.027.487-1.215.021c-1.173 0-1.215.021-1.089.467.419 1.377 2.074 2.839 3.918 3.475l1.299.444-1.131.678a11.763 11.763 0 01-5.616 1.568c-.944.02-1.719.105-1.719.169 0 .211 2.557 1.397 4.044 1.864 4.463 1.377 9.765.783 13.746-1.568 2.829-1.673 5.657-5 6.978-8.221.713-1.716 1.425-4.851 1.425-6.354 0-.975.063-1.102 1.236-2.267.692-.678 1.341-1.419 1.467-1.631.21-.403.188-.403-.88-.043-1.781.636-2.033.551-1.152-.402.649-.678 1.425-1.907 1.425-2.267 0-.063-.314.042-.671.233-.377.212-1.215.53-1.844.72l-1.131.361-1.027-.7c-.566-.381-1.361-.805-1.781-.932-1.069-.296-2.704-.254-3.668.085zM33 64C16.432 64 3 50.569 3 34S16.432 4 33 4s30 13.431 30 30-13.432 30-30 30z" fill-rule="evenodd" clip-rule="evenodd" fill="#d8d9d8"/></symbol><symbol viewBox="0 0 50 50" id="user" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M-1-1h582v402H-1z"/><g><path fill="none" d="M0 0h50v50H0z"/><path stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke="#07b87b" fill="none" d="M30.933 32.528c-.146-1.612-.09-2.737-.09-4.21.73-.383 2.038-2.825 2.259-4.888.574-.047 1.479-.607 1.744-2.818.143-1.187-.425-1.855-.771-2.065.934-2.809 2.874-11.499-3.588-12.397-.665-1.168-2.368-1.759-4.581-1.759-8.854.163-9.922 6.686-7.981 14.156-.345.21-.913.878-.771 2.065.266 2.211 1.17 2.771 1.744 2.818.22 2.062 1.58 4.505 2.312 4.888 0 1.473.055 2.598-.091 4.21C19.367 37.238 7.546 35.916 7 45h38c-.545-9.084-12.315-7.762-14.067-12.472z"/></g></symbol><symbol viewBox="0 0 48 48" id="wand" xmlns="http://www.w3.org/2000/svg"><path d="M5 44a.999.999 0 01-.707-1.707l26.871-26.87a.999.999 0 111.414 1.414L5.707 43.707A.997.997 0 015 44z"/><path d="M31.613 3.658l4.853 4.853 6.789-3.588-3.59 6.789 4.674 4.674-6.18-1.45-3.393 7.275-.977-7.821-7.822-.978 7.273-3.396-1.627-6.358m0-1.7a1.7 1.7 0 00-1.646 2.122l1.279 4.991-5.996 2.799a1.7 1.7 0 00.508 3.227l6.51.814.813 6.509a1.7 1.7 0 003.228.508l2.809-6.022 4.835 1.135a1.7 1.7 0 001.591-2.857l-3.786-3.786 3.003-5.68a1.7 1.7 0 00-2.298-2.298l-5.68 3.002-3.966-3.966a1.706 1.706 0 00-1.204-.498z"/></symbol></svg></div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="/src/index.js"></script>
+</body>
+
+</html>
